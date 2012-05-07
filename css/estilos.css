@@ -1,0 +1,146 @@
+/********Estilos Personalizados********/
+@font-face{
+font-family: ubuntuBold;
+src: url(fuentes/Ubuntu-B.ttf) format('truetype');
+}
+@font-face{
+font-family: ubuntuRegular;
+src: url(fuentes/Ubuntu-R.ttf) format('truetype');
+}
+@font-face{
+font-family: ubuntuItalic;
+src: url(fuentes/Ubuntu-I.ttf) format('truetype');
+}
+@font-face{
+font-family: ubuntuBoldItalic;
+src: url(fuentes/Ubuntu-BI.ttf) format('truetype');
+}
+
+h1,h2,h3,h4,h5,h6{font-family: ubuntuBold;}
+
+h1{font-size:22px; margin-bottom:10px;}
+h2{font-size:14px;}
+h3{font-size:14px;}
+h4{font-size:10px;}
+h5{font-size:8px;}
+h6{font-size:4px;}
+
+p{font-family: ubuntuRegular;}
+
+*{margin: 0; padding:0;}
+
+a{text-decoration:none; color:peru; }
+a:hover{color:#000;}
+
+/*********************************************ETIQUETAS SEMANTICAS**************************************************/
+body{
+margin:25px 0;
+background: #006666;
+font-size:14px;
+}
+
+/*aside{
+	width:100%;
+	float:right;
+	transform:translate(470px,70px);
+}*/
+
+article{
+	background-color: #c3c3c3;
+	width:55%;
+	height:155px;
+	margin: 10px 0px 25px 25px;
+	display: inline-block;
+	padding: 1em 1em 1em 10em;
+	border-radius: 10px 10px 0 0;
+	border: 1px solid black;
+}
+article .post{
+	padding-top:0.5em;
+	margin-left:1em;
+
+}
+
+article #foto{
+	width: 120px;
+	height: 120px;
+	border: 1px solid black;
+	position: absolute;
+	border-radius:5px;
+	transform: translate(-9em, 0.5em);
+	/*-webkit-transform: translate(-9em, 0.5em);
+	-moz-transform: translate(-9em, 0.5em);
+	-ms-transform: translate(-9em, 0.5em);
+	-o-transform: translate(-9em, 0.5em);*/
+}
+
+header{
+	margin:0 auto;
+	width:960px;
+	height:100%;
+}
+nav{
+width: 450px;
+height: 50px;
+float:right;
+}
+nav ul{
+width:100%;
+list-style: none;
+font-family: ubuntuRegular;
+}
+nav ul li{
+display: inline-block;
+margin-left:0.5em;
+transform: translate(30px,-13px);
+/*-webkit-transform: translate(0px,-13px);
+-moz-transform: translate(0px,-13px);
+-ms-transform: translate(0px,-13px);
+-o-transform: translate(0px,-13px);*/
+
+}
+nav ul li:hover{
+transform: translate(30px,-15px);
+/*-webkit-transform: translate(0px,-15px);
+-moz-transform: translate(0px,-15px);
+-ms-transform: translate(0px,-15px);
+-o-transform: translate(0px,-15px);*/
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+background-color: olive;	
+padding: 10px;
+border-radius: 5px;
+}
+
+
+footer{
+	text-align:center;
+	color: #fff;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+/********************************************************ID***************************************************/
+
+#general{
+background: white;
+position: relative;
+border: 1px solid black;
+margin: 10px auto;
+width: 960px;
+height: 100%;
+border-radius: 50px;
+box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#logo{
+	width:120px;
+	height:120px;
+	padding: 10px 30px;
+}
+
+/***************************************************CLASES************************************************************/
+.NF{
+	clear:both;
+}
